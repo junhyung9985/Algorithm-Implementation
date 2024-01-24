@@ -33,7 +33,7 @@ class Dijkstra_2d{
         }
 
         void sort_edges(){
-            for(int i = 1; i<=N; ++i)
+            for(int i = 1; i <= N; ++i)
                 sort(E[i].begin(), E[i].end(), sort_cmp);
         }
 
@@ -42,7 +42,7 @@ class Dijkstra_2d{
             priority_queue<tuple<ll,ll,ll>> pq;
             vector<vector<ll>> dist(M+1, vector<ll>(N+1, -1)); // array of shortest distance from src, -1 if unreachable
             dist[0][src] = 0;
-            for(int i =1; i<=M; ++i) dist[i][src] = 0;
+            for(int i = 1; i <= M; ++i) dist[i][src] = 0;
             pq.push({0, src, 0});
             
             while(!pq.empty()){
@@ -77,5 +77,5 @@ class Dijkstra_2d{
             return;
         }; // I don't know how... also, I haven't seen any 2D-dijkstra backtracking problem yet.
         // I will update about this after I've seen any problem like this.
-
+ 
 }; // Costive Dijkstra

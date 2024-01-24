@@ -29,7 +29,7 @@ class Dijkstra{
         }
 
         void sort_edges(){
-            for(int i = 1; i<=N; ++i){
+            for(int i = 1; i <= N; ++i){
                 sort(E[i].begin(), E[i].end(), sort_cmp);
                 sort(E2[i].begin(), E2[i].end(), sort_cmp);
             }        

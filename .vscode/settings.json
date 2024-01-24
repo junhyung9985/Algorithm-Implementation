@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "array": "cpp",
+        "algorithm": "cpp",
+        "numbers": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "tuple": "cpp"
+    }
+}
