@@ -47,6 +47,14 @@ vector<ll> Mos(vector<ll> v, vector<pair<ll,ll>> queries){ // vector of array wi
             /// Logics end
         }
 
+        while(n_e > e){
+            ++e;
+            /// Logics start
+            if(how_many[v[e]] == 0) ++curr_ans;
+            ++how_many[v[e]];
+            /// Logics end
+        }
+
         while(n_s > s){
             /// Logics start
             --how_many[v[s]];
@@ -63,13 +71,6 @@ vector<ll> Mos(vector<ll> v, vector<pair<ll,ll>> queries){ // vector of array wi
             --e;
         }
 
-        while(n_e > e){
-            ++e;
-            /// Logics start
-            if(how_many[v[e]] == 0) ++curr_ans;
-            ++how_many[v[e]];
-            /// Logics end
-        }
         ans[idx] = curr_ans;
     }
 
