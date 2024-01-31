@@ -13,3 +13,11 @@
     - BOJ 13547 수열과 쿼리 5 -> AC (272 ms)
     - BOJ 8462 배열의 힘 -> AC (312 ms)
     - BOJ 13546 수열과 쿼리 4 -> AC (2744 ms)
+    - BOJ 13545 수열과 쿼리 0 -> AC (1320 ms)
+    - BOJ 13550 수열과 쿼리 7 -> AC (2340 ms)
+
+- SegmentTree
+    - BOJ 2024 구간 합 구하기 -> AC (236 ms)
+
+- LazySegmentTree
+    - BOJ 10999 구간 합 구하기 2 -> AC (224 ms)
