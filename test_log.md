@@ -18,6 +18,10 @@
 
 - SegmentTree
     - BOJ 2024 구간 합 구하기 -> AC (236 ms)
+    - BOJ 13510 트리와 쿼리 1 -> AC (224 ms)
 
 - LazySegmentTree
     - BOJ 10999 구간 합 구하기 2 -> AC (224 ms)
+
+- HLD
+    - BOJ 13510 트리와 쿼리 1 -> AC (224 ms)
