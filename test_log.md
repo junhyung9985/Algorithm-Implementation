@@ -7,6 +7,9 @@
 - Dijkstra_2d
     - BOJ 1162 도로포장 -> AC (120 ms)
 
+- SCC
+    - BOJ 2150 Strongly Connected Component -> AC (28 ms)
+
 # Range Query
 
 - Mos
